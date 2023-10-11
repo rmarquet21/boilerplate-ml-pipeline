@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spike-mlflow"
+version = "0.1.0"
+description = ""
+authors = ["Robin Marquet <robin.marquet@epitech.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mlflow = {extras = ["pytorch"], version = "^2.7.1"}
+scikit-learn = "^1.3.1"
+alfred-cli = "^2.2.2"
+transformers = {extras = ["torch"], version = "^4.34.0"}
+torch = "^2.1.0"
+nltk = "^3.8.1"
+datasets = "^2.14.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
